@@ -71,7 +71,7 @@
                                 </td>
 
                                 <td>
-                                    <div class="d-flex justify-content-center">
+                                    <div class="d-flex justify-content-center gap-2">
                                         <a href="{{ route('videojuegos.show', $videojuego) }}"
                                             class="btn btn-primary btn-sm">
                                             Detalles

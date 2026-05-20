@@ -14,5 +14,7 @@ return Application::configure(basePath: dirname(__DIR__))
         //
     })
     ->withExceptions(function (Exceptions $exceptions): void {
-        //
+        $exceptions->render(function (PDOException $e){
+            return response()->view('errors.nobd');
+        });
     })->create();
