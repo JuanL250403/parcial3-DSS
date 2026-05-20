@@ -53,7 +53,7 @@
                                     ${{ $venta->total }}
                                 </td>
                                 <td>
-                                    <div class="d-flex gap-2">
+                                    <div class="d-flex gap-2 justify-content-center">
                                         <a href="{{ route('ventas.show', $venta) }}"
                                             class="btn btn-primary btn-sm">
                                             Detalles

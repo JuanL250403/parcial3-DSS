@@ -22,7 +22,7 @@
                             <th>Categoría</th>
                             <th>Precio</th>
                             <th>Stock</th>
-                            <th>Activo</th>
+                            <th>Estado</th>
                             <th>Acciones</th>
                         </tr>
                     </thead>
@@ -71,7 +71,7 @@
                                 </td>
 
                                 <td>
-                                    <div class="d-flex gap-2">
+                                    <div class="d-flex justify-content-center">
                                         <a href="{{ route('videojuegos.show', $videojuego) }}"
                                             class="btn btn-primary btn-sm">
                                             Detalles

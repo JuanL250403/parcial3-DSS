@@ -11,7 +11,7 @@
                 <div class="row g-4">
 
                     <div class="col-md-6">
-                        <label class="text-muted">Usuario</label>
+                        <label class="text-muted">Empleado</label>
                         <p class="fw-bold">{{ $venta->usuario?->name }}</p>
                     </div>
 
@@ -62,7 +62,7 @@
                     </div>
 
                     <div class="col-md-6">
-                        <label class="text-muted">Fecha de compra</label>
+                        <label class="text-muted">Fecha de venta</label>
                         <p class="fw-bold">{{ $venta->created_at->format('d/m/Y H:i') }}</p>
                     </div>
 
